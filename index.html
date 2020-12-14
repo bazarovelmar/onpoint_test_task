@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+   
+</head>
+<section>
+    <div class="navigation">
+        <button class="active" id="thirst_scrl"></button>
+        <button class="" id="second_scrl"></button>
+        <button class="" id="third_scrl"></button>
+    </div>
+</section>
+<body>
+    
+    
+    <div class="thirst_block">
+        <h1 class="thirst_block__header">Всегда ли цели терапии СД2 <br> на поверхности?</h1>
+
+        <div class="ellipse_thirst">
+            <div class="ellipse_thirst__big"> <h2 class="ellipse_thirst__target">Цель по HbA1c</h2></div>
+            <div class="ellipse_thirst__middle"></div>
+            <div class="ellipse_thirst__little"></div>   
+        </div>
+
+        <div class="ellipse_second">
+            <div class="ellipse_second__big"><h2 class="ellipse_second__gip">Гипогликемия</h2></div>
+            <div class="ellipse_second__middle"></div>
+            <div class="ellipse_second__little"></div>
+        </div>
+        <div class="ellipse_third">
+            <div class="ellipse_third__big"><h2 class="ellipse_third__cd">Осложнения СД</h2></div>
+            <div class="ellipse_third__middle"></div>
+            <div class="ellipse_third__little"></div>
+        </div>
+        <div class="ellipse_fourth">
+            <div class="ellipse_fourth__big"><h2 class="ellipse_fourth__cc">СС риски</h2></div>
+            <div class="ellipse_fourth__middle"></div>
+            <div class="ellipse_fourth__little"></div>
+        </div>
+
+        
+        <button class="scroll_thirst_text" id="thirst_scroll" onclick="handleButtonClick()">Листайте вниз</button>
+        <img class="scroll_thirst_img" src="icons/thirst_block/Shape 21.png" alt="" onclick="handleButtonClick()"></div>
+    </div>
+
+    
+    <div class="second_block__scroll">
+
+        <div class="second_block__scroll_header" id="second_arrow" > Основа терапии —<br>
+            патогенез СД2</div>
+
+        <button class="scroll_second_text" id="second_scroll" onclick="handleButtonCl()">Листайте вниз</button>
+        <img class="scroll_second_img"  src="icons/thirst_block/Shape 21.png" alt="" onclick="handleButtonCl()">
+    </div>
+    <input type="range" value="0" min="0" max="2" step="1" id="range">
+    <div class="years" id="years">
+        <p>1998</p>
+        <p>2009</p>
+        <p>2016</p>
+    </div>
+    
+    
+    
+    <div class="third_block">
+  
+        <div class="thirst_slide"><img src="images/thirst_slide.jpg" alt="" id="thirst" class=""></div>
+        <div class="second_slide"><img src="images/second_slide.jpg" alt="" id="second" class=""></div>
+        <div class="third_slide"><img src="images/third_slide.jpg" alt="" id="third" class=""></div>
+
+
+    </div>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

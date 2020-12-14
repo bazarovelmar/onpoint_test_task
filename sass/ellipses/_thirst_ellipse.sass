@@ -1,0 +1,78 @@
+body
+    .thirst_block
+        .ellipse_thirst
+                &__big
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 50%;
+                    border-color:  rgb(222,121,27)
+                    background-color: rgba(247, 139, 31, 0.22);
+                    position: absolute;
+                    left: 581px;
+                    top: 159px;
+                    width: 66px;
+                    height: 66px;
+                    z-index: 13;
+                    h2
+                        margin-left: 86px
+                        font-size: 17.455px;
+                        font-family: "Arial Unicode MS";
+                        color: rgb(13, 49, 156);
+                        margin-top: 19px
+                        text-align: left;
+                        width: 150px
+                        position: absolute;
+                        font-family: GotamPro
+                        z-index: 35
+
+
+                &__little
+                    border-radius: 50%;
+                    background-color: rgb(255, 94, 0);
+                    border-color:  #ff7b00
+                    opacity: 0.62;
+                    position: absolute;
+                    left: 605px;
+                    top: 185px;
+                    width: 22px;
+                    height: 22px;
+                    z-index: 20;
+                    animation: pulse1 3s infinite;
+                    @-webkit-keyframes pulse1
+                        0%
+                            transform: scale(1)
+                            border-color:  #ff7b00
+                        30%
+
+                        50%
+                            transform: scale(3.1)
+                            background-color: rgba(247, 139, 31, 0.42);
+                            border-color:  #793a00
+
+                        100%
+                            transform: scale(1)
+                            background-color: rgb(255, 94, 0)
+                            border-color:  #2e1600           
+                &__middle
+                    border-width: 2px;
+                    border-style: solid;
+                    border-color:  rgb(222,121,27)
+                    border-radius: 50%;
+                    background-color: rgba(247, 139, 31, 0.42);
+                    position: absolute;
+                    left: 597px;
+                    top: 175px;
+                    width: 34px;
+                    height: 34px;
+                    z-index: 14;
+                    animation: pulse2 3s infinite;
+                    animation-delay: 0.5s
+                    @-webkit-keyframes pulse2
+                        0%
+                            transform: scale(1)
+                        50%
+                            transform: scale(2)
+                    
+                        100%
+                            transform: scale(1)
+            

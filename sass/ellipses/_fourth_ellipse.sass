@@ -1,0 +1,71 @@
+body
+    .thirst_block
+        .ellipse_fourth
+            &__big
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 50%;
+                border-color:  rgb(222,121,27)
+                background-color: rgba(247, 139, 31, 0.22);
+                position: absolute;
+                left: 953.5px;
+                top: 487.5px;
+                width: 17px;
+                height: 17px;
+                z-index: 1000; 
+                h2
+                    font-size: 17.455px;
+                    font-family: "Arial Unicode MS";
+                    color: rgb(13, 49, 156);
+                    text-align: left;
+                    position: absolute;
+                    z-index: 33;
+                    margin-top: -27px
+                    margin-left: -31px
+                    width: 150px
+                    font-family: GotamPro
+            &__little
+                border-radius: 50%;
+                background-color: rgb(255, 94, 0);
+                border-color:  #ff7b00
+                opacity: 0.62;
+                position: absolute;
+                left: 959.5px;
+                top: 493.5px;
+                width: 6px;
+                height: 6px;
+                z-index: 20;
+                animation: pulse6 3s infinite;
+                @-webkit-keyframes pulse6
+                    0%
+                        transform: scale(1)
+                        border-color:  #ff7b00
+                    30%
+
+                    50%
+                        transform: scale(2.4)
+                    100%
+                        transform: scale(1)
+                        background-color: rgb(255, 94, 0)      
+            &__middle
+                border-width: 1px;
+                border-style: solid;
+                border-color:  rgb(222,121,27)
+                border-radius: 50%;
+                background-color: rgba(247, 139, 31, 0.42);
+                position: absolute;
+                left: 957px;
+                top: 490.5px;
+                width: 10px;
+                height: 10px;
+                z-index: 14;
+                animation: pulse7 3s infinite;
+                animation-delay: 0.5s
+                @-webkit-keyframes pulse7
+                    0%
+                        transform: scale(1)
+                    50%
+                        transform: scale(1.5)
+                
+                    100%
+                        transform: scale(1)
